@@ -3,11 +3,11 @@
   <title>星余</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://www.junyuxing.top/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://www.junyuxing.top/"/>
   <updated>2022-12-26T13:14:46.141Z</updated>
-  <id>http://example.com/</id>
+  <id>https://www.junyuxing.top/</id>
   
   <author>
     <name>日生</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2023/07/25/hello-world/"/>
-    <id>http://example.com/2023/07/25/hello-world/</id>
+    <link href="https://www.junyuxing.top/2023/07/25/hello-world/"/>
+    <id>https://www.junyuxing.top/2023/07/25/hello-world/</id>
     <published>2023-07-25T11:11:20.973Z</published>
     <updated>2022-12-26T13:14:46.141Z</updated>
     
