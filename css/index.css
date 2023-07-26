@@ -3544,3 +3544,11 @@ pre .coffeescript .title {
   --primary-weak: #006b37;
   --primary-weak-50: rgba(0, 107, 55, 0.5);
 }
+.trm-top-bar .container .trm-left-side .trm-logo-frame {
+  width: 400% !important;
+  justify-content: center;
+}
+.trm-top-bar .container .trm-left-side .trm-logo-frame img {
+  height: 70%;
+  width: auto !important;
+}
