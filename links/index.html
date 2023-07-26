@@ -291,7 +291,7 @@
         <!-- card header -->
 <div class="trm-mc-header">
     <div class="trm-avatar-frame trm-mb-20">
-        <img alt="Avatar" class="trm-avatar" src="/img/love.jpg">
+        <img alt="Avatar" class="trm-avatar" src="/img/avatar.jpg">
     </div>
     <h5 class="trm-name trm-mb-15">
         shylove
@@ -393,7 +393,7 @@
             <ul class="trm-list">
                 <li>网站名称：shylove</li>
                 <li>网站链接：junyuxing.top</li>
-                <li>网站头像：https://www.imalun.com/img/love.jpg</li>
+                <li>网站头像：https://www.imalun.com/img/avatar.jpg</li>
                 <li>网站简介：shy的垃圾桶。</li>
             </ul>
         </div>
@@ -550,6 +550,21 @@
 
 <script id="async-script" src="/js/main.js?v=2.0.9"></script>
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 
 </html>
