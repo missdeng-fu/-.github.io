@@ -6,7 +6,7 @@
   <link href="https://www.imalun.com/atom.xml" rel="self"/>
   
   <link href="https://www.imalun.com/"/>
-  <updated>2023-10-02T04:49:46.861Z</updated>
+  <updated>2023-10-19T10:14:26.190Z</updated>
   <id>https://www.imalun.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于论文的反思</title>
+    <link href="https://www.imalun.com/2023/10/19/%E9%9A%8F%E6%83%B310-19/"/>
+    <id>https://www.imalun.com/2023/10/19/%E9%9A%8F%E6%83%B310-19/</id>
+    <published>2023-10-19T10:14:20.456Z</published>
+    <updated>2023-10-19T10:14:26.190Z</updated>
+    
+    <content type="html"><![CDATA[<p>时间过得真快，上一次写文章还是半个月之前了，今天写文章是因为一件事情，也就是跟随师姐们写论文的事情，这件事情让我有些困扰，今天吃饭的时候，一航问我，为什么最近李靖不找我了，其实我想，李靖不找我已经很久了，写这篇文章是想总结一下我心里的想法，就是，我希望李靖找我吗，如果她找了我，并且我认真且热情的回应了她，并且很沉浸进去的和她一起写论文，我想也许我能得到一个论文的二作，并且也许有可能接手李靖的课题，我想我此刻惋惜的也许也是这个，看着大家都有了不错的成绩，都有机会发论文带上名字，我想我心里是很羡慕的，又或者说，我嫉妒?，其实内心里有一点点涉及父母，我不知道我为什么会涉及到父母，也许发篇论文是一件很关键的事情。也许我希望他们的儿子有所成就，也许我心里也想不落后于别人，我想问邓福星，你很想要这个论文作者吗，我想答案是No,没有很想，只是不希望落后与别人，那我要去争取吗，我想我不想去争取，对我来说，这些事情，我看的并不是很重要，至少现在是这样的，我要为了将来的事情去提前做准备吗，为了将来读博的可能性去再争取一下吗，我想不是的，我不想去，是的，我不想去。也许李靖师姐已经很主动了，她对我应该有些失望，但是我不想，是的，我觉得我心力交瘁，我也不知道我追求什么，但我知道的是，我并不是很想再重新参与进去了，我衷心祝愿每个同门有个好结果，可我不应该去进行比较了，我只要过好自己的生活，过好自己的每一天就好了，以后的时间很长，我不去想以后的事，我也不关心别人的想法，我要照顾好我自己，好好的对待我自己，什么狗屁学术，什么狗屁追求，命定的一切终有安排，一切都是外物，把自己过好就可以了。把自己过好就可以了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;时间过得真快，上一次写文章还是半个月之前了，今天写文章是因为一件事情，也就是跟随师姐们写论文的事情，这件事情让我有些困扰，今天吃饭的时候，一航问我，为什么最近李靖不找我了，其实我想，李靖不找我已经很久了，写这篇文章是想总结一下我心里的想法，就是，我希望李靖找我吗，如果她找了</summary>
+      
+    
+    
+    
+    <category term="随笔" scheme="https://www.imalun.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>日记-10-2</title>
@@ -435,28 +457,6 @@
     
     
     <category term="日记" scheme="https://www.imalun.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://www.imalun.com/2023/07/25/hello-world/"/>
-    <id>https://www.imalun.com/2023/07/25/hello-world/</id>
-    <published>2023-07-25T11:11:20.973Z</published>
-    <updated>2023-07-26T10:11:55.157Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="hljs bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="hljs bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="hljs bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
-    <category term="学习" scheme="https://www.imalun.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
   </entry>
