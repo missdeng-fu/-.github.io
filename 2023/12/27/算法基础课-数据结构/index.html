@@ -10,12 +10,12 @@
 <meta name="description" content="算法基础课数据结构单链表&#x3D;#include &lt;iostream&gt;  using namespace std;  const int N &#x3D; 100010;   &#x2F;*这个题的理解上有一个问题困扰了我很久，就是这个Idx究竟代表什么，翻了很多的评论，我觉得以下这个评论 我觉得很合适说说的我个人对idx的理解 先区分两个概念： 节点和结点 节点：一个点 结点：链表的元素，含e[idx],ne">
 <meta property="og:type" content="article">
 <meta property="og:title" content="算法基础课-数据结构">
-<meta property="og:url" content="https://www.imalun.com/2023/12/26/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80%E8%AF%BE-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.html">
+<meta property="og:url" content="https://www.imalun.com/2023/12/27/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80%E8%AF%BE-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.html">
 <meta property="og:site_name" content="星余">
 <meta property="og:description" content="算法基础课数据结构单链表&#x3D;#include &lt;iostream&gt;  using namespace std;  const int N &#x3D; 100010;   &#x2F;*这个题的理解上有一个问题困扰了我很久，就是这个Idx究竟代表什么，翻了很多的评论，我觉得以下这个评论 我觉得很合适说说的我个人对idx的理解 先区分两个概念： 节点和结点 节点：一个点 结点：链表的元素，含e[idx],ne">
 <meta property="og:locale">
-<meta property="article:published_time" content="2023-12-26T06:15:57.977Z">
-<meta property="article:modified_time" content="2023-12-26T06:16:05.145Z">
+<meta property="article:published_time" content="2023-12-27T05:43:34.621Z">
+<meta property="article:modified_time" content="2023-12-27T05:43:56.906Z">
 <meta property="article:author" content="日生">
 <meta property="article:tag" content="爱与思考">
 <meta name="twitter:card" content="summary">
@@ -69,7 +69,7 @@
 
 <!-- Variable -->
 <script>window.ASYNC_CONFIG = {"hostname":"www.imalun.com","author":"日生","root":"/","typed_text":["ever ever give up"],"theme_version":"2.0.9","theme":{"switch":true,"default":"auto"},"favicon":{"logo":"log.svg","icon16":"log.svg","icon32":"log.svg","appleTouchIcon":"log.svg","webmanifest":"/site.webmanifest","visibilitychange":true,"hidden":"failure.ico","showText":"(/≧▽≦/)咦！又好了！","hideText":"(●—●)喔哟，崩溃啦！"},"i18n":{"placeholder":"搜索文章...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）","author":"本文作者：","copyright_link":"本文链接：","copyright_license_title":"版权声明：","copyright_license_content":"本博客所有文章除特别声明外，均默认采用 undefined 许可协议。","copy_success":"复制成功","copy_failure":"复制失败","open_read_mode":"进入阅读模式","exit_read_mode":"退出阅读模式","notice_outdate_message":"距离上次更新已经 undefined 天了, 文章内容可能已经过时。","just":"刚刚","min":"分钟前","hour":"小时前","day":"天前","month":"个月前"},"swup":false,"plugin":{"flickr_justified_gallery":"https://npm.elemecdn.com/flickr-justified-gallery@latest/dist/fjGallery.min.js"},"icons":{"sun":"icon-moon","moon":"icon-sun","play":"icon-yunhang","email":"icon-email","next":"icon-arrow-right","calendar":"icon-rili","clock":"icon-shijian","user":"icon-yonghu","back_top":"icon-backtop","close":"icon-guanbi","search":"icon-chaxun","reward":"icon-qiandai","user_tag":"icon-yonghu","toc_tag":"icon-liebiao","read":"icon-yuedu","arrows":"icon-moon","double_arrows":"icon-moon","copy":"icon-copy"},"icontype":"symbol","highlight":{"plugin":"highlighjs","theme":true,"copy":true,"lang":true,"title":"mac","height_limit":200}};</script>
-<script id="async-page-config">window.PAGE_CONFIG = {"isPost":true,"isHome":false,"postUpdate":"2023-12-26 14:16:05"};</script>
+<script id="async-page-config">window.PAGE_CONFIG = {"isPost":true,"isHome":false,"postUpdate":"2023-12-27 13:43:56"};</script>
 
 <!-- Theme mode css -->
 <link data-swup-theme rel="stylesheet" href="/css/index.css?v=2.0.9" id="trm-switch-style">
@@ -368,7 +368,7 @@
             </div>
             <div name="tabs-toc" class="trm-tabs-item active">
                 <div class="post-toc">
-    <ol class="toc"><li class="toc-item toc-level-1"><a rel="nofollow" class="toc-link" href="#算法基础课"  data-scroll-to="#算法基础课"><span class="toc-number">1.</span> <span class="toc-text">算法基础课</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a rel="nofollow" class="toc-link" href="#数据结构"  data-scroll-to="#数据结构"><span class="toc-number">1.1.</span> <span class="toc-text">数据结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a rel="nofollow" class="toc-link" href="#单链表"  data-scroll-to="#单链表"><span class="toc-number">1.1.1.</span> <span class="toc-text">单链表</span></a></li><li class="toc-item toc-level-3"><a rel="nofollow" class="toc-link" href="#双链表"  data-scroll-to="#双链表"><span class="toc-number">1.1.2.</span> <span class="toc-text">双链表</span></a></li></ol></li></ol></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a rel="nofollow" class="toc-link" href="#算法基础课"  data-scroll-to="#算法基础课"><span class="toc-number">1.</span> <span class="toc-text">算法基础课</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a rel="nofollow" class="toc-link" href="#数据结构"  data-scroll-to="#数据结构"><span class="toc-number">1.1.</span> <span class="toc-text">数据结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a rel="nofollow" class="toc-link" href="#单链表"  data-scroll-to="#单链表"><span class="toc-number">1.1.1.</span> <span class="toc-text">单链表</span></a></li><li class="toc-item toc-level-3"><a rel="nofollow" class="toc-link" href="#双链表"  data-scroll-to="#双链表"><span class="toc-number">1.1.2.</span> <span class="toc-text">双链表</span></a></li><li class="toc-item toc-level-3"><a rel="nofollow" class="toc-link" href="#栈"  data-scroll-to="#栈"><span class="toc-number">1.1.3.</span> <span class="toc-text">栈</span></a></li><li class="toc-item toc-level-3"><a rel="nofollow" class="toc-link" href="#队列"  data-scroll-to="#队列"><span class="toc-number">1.1.4.</span> <span class="toc-text">队列</span></a></li></ol></li></ol></li></ol>
 </div>
             </div>
         </div>
@@ -388,7 +388,7 @@
             <svg class="symbol-icon trm-icon" aria-hidden="true">
     <use xlink:href="#icon-rili"></use>
 </svg><br>
-            12/26
+            12/27
         </div>
     </div>
     <div class="col-sm-4">
@@ -396,7 +396,7 @@
             <svg class="symbol-icon trm-icon" aria-hidden="true">
     <use xlink:href="#icon-shijian"></use>
 </svg><br>
-            14:15
+            13:43
         </div>
     </div>
     <div class="col-sm-4">
@@ -573,6 +573,182 @@
 
     <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
 &#125;</code></pre>
+<h3 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h3><h4 id="模拟栈"><a href="#模拟栈" class="headerlink" title="模拟栈"></a>模拟栈</h4><pre><code class="hljs C++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span>
+<span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;
+<span class="hljs-type">const</span> <span class="hljs-type">int</span> N = <span class="hljs-number">100010</span>;
+<span class="hljs-type">int</span> st[N];
+<span class="hljs-type">int</span> top = <span class="hljs-number">-1</span>;
+<span class="hljs-type">int</span> n;
+<span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>
+<span class="hljs-function"></span>&#123;
+    cin &gt;&gt; n;
+    <span class="hljs-keyword">while</span>(n--)
+    &#123;
+        string s;
+        cin &gt;&gt; s;
+
+        <span class="hljs-comment">//栈顶所在索引往后移动一格，然后放入x。</span>
+        <span class="hljs-keyword">if</span>(s == <span class="hljs-string">&quot;push&quot;</span>)
+        &#123;
+            <span class="hljs-type">int</span> a;
+            cin &gt;&gt; a;
+            st[++top] = a;
+        &#125;
+
+        <span class="hljs-comment">//往前移动一格</span>
+        <span class="hljs-keyword">if</span>(s == <span class="hljs-string">&quot;pop&quot;</span>)
+        &#123;
+            top --;
+        &#125;
+        <span class="hljs-comment">//返回栈顶元素</span>
+        <span class="hljs-keyword">if</span>(s == <span class="hljs-string">&quot;query&quot;</span>)
+        &#123;
+            cout &lt;&lt; st[top] &lt;&lt; endl;
+        &#125;
+        <span class="hljs-comment">//大于等于 0 栈非空，小于 0 栈空</span>
+        <span class="hljs-keyword">if</span>(s == <span class="hljs-string">&quot;empty&quot;</span>)
+        &#123;
+            cout &lt;&lt; (top == <span class="hljs-number">-1</span> ? <span class="hljs-string">&quot;YES&quot;</span> : <span class="hljs-string">&quot;NO&quot;</span>) &lt;&lt; endl;
+        &#125;
+    &#125;
+&#125;
+</code></pre>
+
+<h4 id="表达式求值"><a href="#表达式求值" class="headerlink" title="表达式求值"></a>表达式求值</h4><pre><code class="hljs C++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stack&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;string&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;unordered_map&gt;</span></span>
+<span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;
+
+stack&lt;<span class="hljs-type">int</span>&gt; num;
+stack&lt;<span class="hljs-type">char</span>&gt; op;
+
+<span class="hljs-comment">//优先级表</span>
+unordered_map&lt;<span class="hljs-type">char</span>, <span class="hljs-type">int</span>&gt; h&#123; &#123;<span class="hljs-string">&#x27;+&#x27;</span>, <span class="hljs-number">1</span>&#125;, &#123;<span class="hljs-string">&#x27;-&#x27;</span>, <span class="hljs-number">1</span>&#125;, &#123;<span class="hljs-string">&#x27;*&#x27;</span>,<span class="hljs-number">2</span>&#125;, &#123;<span class="hljs-string">&#x27;/&#x27;</span>, <span class="hljs-number">2</span>&#125; &#125;;
+
+
+<span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">eval</span><span class="hljs-params">()</span><span class="hljs-comment">//求值</span></span>
+<span class="hljs-function"></span>&#123;
+    <span class="hljs-type">int</span> a = num.<span class="hljs-built_in">top</span>();<span class="hljs-comment">//第二个操作数</span>
+    num.<span class="hljs-built_in">pop</span>();
+
+    <span class="hljs-type">int</span> b = num.<span class="hljs-built_in">top</span>();<span class="hljs-comment">//第一个操作数</span>
+    num.<span class="hljs-built_in">pop</span>();
+
+    <span class="hljs-type">char</span> p = op.<span class="hljs-built_in">top</span>();<span class="hljs-comment">//运算符</span>
+    op.<span class="hljs-built_in">pop</span>();
+
+    <span class="hljs-type">int</span> r = <span class="hljs-number">0</span>;<span class="hljs-comment">//结果 </span>
+
+    <span class="hljs-comment">//计算结果</span>
+    <span class="hljs-keyword">if</span> (p == <span class="hljs-string">&#x27;+&#x27;</span>) r = b + a;
+    <span class="hljs-keyword">if</span> (p == <span class="hljs-string">&#x27;-&#x27;</span>) r = b - a;
+    <span class="hljs-keyword">if</span> (p == <span class="hljs-string">&#x27;*&#x27;</span>) r = b * a;
+    <span class="hljs-keyword">if</span> (p == <span class="hljs-string">&#x27;/&#x27;</span>) r = b / a;
+
+    num.<span class="hljs-built_in">push</span>(r);<span class="hljs-comment">//结果入栈</span>
+&#125;
+
+<span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>
+<span class="hljs-function"></span>&#123;
+    string s;<span class="hljs-comment">//读入表达式</span>
+    cin &gt;&gt; s;
+
+    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>; i &lt; s.<span class="hljs-built_in">size</span>(); i++)
+    &#123;
+        <span class="hljs-keyword">if</span> (<span class="hljs-built_in">isdigit</span>(s[i]))<span class="hljs-comment">//数字入栈</span>
+        &#123;
+            <span class="hljs-type">int</span> x = <span class="hljs-number">0</span>, j = i;<span class="hljs-comment">//计算数字</span>
+            <span class="hljs-keyword">while</span> (j &lt; s.<span class="hljs-built_in">size</span>() &amp;&amp; <span class="hljs-built_in">isdigit</span>(s[j]))
+            &#123;
+                x = x * <span class="hljs-number">10</span> + s[j] - <span class="hljs-string">&#x27;0&#x27;</span>;
+                j++;
+            &#125;
+            <span class="hljs-comment">//这个地方的理解可以看看海绵宝宝题解的第一条评论，写的很好</span>
+            num.<span class="hljs-built_in">push</span>(x);<span class="hljs-comment">//数字入栈</span>
+            i = j - <span class="hljs-number">1</span>;
+        &#125;
+        <span class="hljs-comment">//左括号无优先级，直接入栈</span>
+        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (s[i] == <span class="hljs-string">&#x27;(&#x27;</span>)<span class="hljs-comment">//左括号入栈</span>
+        &#123;
+            op.<span class="hljs-built_in">push</span>(s[i]);
+        &#125;
+        <span class="hljs-comment">//括号特殊，遇到左括号直接入栈，遇到右括号计算括号里面的</span>
+        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (s[i] == <span class="hljs-string">&#x27;)&#x27;</span>)<span class="hljs-comment">//右括号</span>
+        &#123;
+            <span class="hljs-keyword">while</span>(op.<span class="hljs-built_in">top</span>() != <span class="hljs-string">&#x27;(&#x27;</span>)<span class="hljs-comment">//一直计算到左括号</span>
+                <span class="hljs-built_in">eval</span>();
+            op.<span class="hljs-built_in">pop</span>();<span class="hljs-comment">//左括号出栈</span>
+        &#125;
+        <span class="hljs-keyword">else</span>
+        &#123;
+            <span class="hljs-keyword">while</span> (op.<span class="hljs-built_in">size</span>() &amp;&amp; h[op.<span class="hljs-built_in">top</span>()] &gt;= h[s[i]])<span class="hljs-comment">//待入栈运算符优先级低，则先计算</span>
+                <span class="hljs-built_in">eval</span>();
+            op.<span class="hljs-built_in">push</span>(s[i]);<span class="hljs-comment">//操作符入栈</span>
+        &#125;
+    &#125;
+    <span class="hljs-keyword">while</span> (op.<span class="hljs-built_in">size</span>()) <span class="hljs-built_in">eval</span>();<span class="hljs-comment">//剩余的进行计算</span>
+    cout &lt;&lt; num.<span class="hljs-built_in">top</span>() &lt;&lt; endl;<span class="hljs-comment">//输出结果</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+&#125;</code></pre>
+<h3 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h3><h4 id="模拟队列"><a href="#模拟队列" class="headerlink" title="模拟队列"></a>模拟队列</h4><pre><code class="hljs C++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span>
+<span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;
+<span class="hljs-type">const</span> <span class="hljs-type">int</span> N = <span class="hljs-number">100010</span>;
+<span class="hljs-type">int</span> q[N];
+
+<span class="hljs-comment">//[hh, tt] 之间为队列（左闭右闭）</span>
+<span class="hljs-type">int</span> hh = <span class="hljs-number">0</span>;<span class="hljs-comment">//队头位置</span>
+<span class="hljs-type">int</span> tt = <span class="hljs-number">-1</span>;<span class="hljs-comment">//队尾位置</span>
+<span class="hljs-comment">//操作次数</span>
+<span class="hljs-type">int</span> m;
+<span class="hljs-comment">//操作方式</span>
+string s;
+
+<span class="hljs-comment">//入队：队尾先往后移动一格，再放入要插入的数据</span>
+<span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">push</span><span class="hljs-params">(<span class="hljs-type">int</span> x)</span></span>&#123;
+    q[++tt] = x;
+&#125;
+<span class="hljs-comment">//出队：队头往后移动一格</span>
+<span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">pop</span><span class="hljs-params">()</span></span>&#123;
+    hh++;
+&#125;
+<span class="hljs-comment">//[hh, tt]表示队列区间，当tt &gt;= hh时，区间不为空</span>
+<span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">empty</span><span class="hljs-params">()</span></span>&#123;
+    <span class="hljs-keyword">if</span>(tt &gt;= hh) cout &lt;&lt; <span class="hljs-string">&quot;NO&quot;</span> &lt;&lt; endl;
+    <span class="hljs-keyword">else</span> cout &lt;&lt; <span class="hljs-string">&quot;YES&quot;</span> &lt;&lt; endl;
+&#125; 
+<span class="hljs-comment">//hh指向队头，q[hh]代表队头元素</span>
+<span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">query</span> <span class="hljs-params">()</span></span>&#123;
+    cout &lt;&lt; q[hh] &lt;&lt; endl;
+&#125;
+
+<span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>&#123;
+    cin &gt;&gt; m;
+    <span class="hljs-keyword">while</span>(m--)&#123;
+        cin &gt;&gt; s;
+        <span class="hljs-comment">//入队</span>
+        <span class="hljs-keyword">if</span>(s == <span class="hljs-string">&quot;push&quot;</span>)&#123;
+            <span class="hljs-type">int</span> x;
+            cin &gt;&gt; x;
+            <span class="hljs-built_in">push</span>(x);
+        &#125;
+        <span class="hljs-comment">//出队</span>
+        <span class="hljs-keyword">if</span>(s == <span class="hljs-string">&quot;pop&quot;</span>)&#123;
+            <span class="hljs-built_in">pop</span>();
+        &#125;
+        <span class="hljs-comment">//问空</span>
+        <span class="hljs-keyword">if</span>(s == <span class="hljs-string">&quot;empty&quot;</span>)&#123;
+            <span class="hljs-built_in">empty</span>();
+        &#125;
+        <span class="hljs-comment">//问队头</span>
+        <span class="hljs-keyword">if</span>(s == <span class="hljs-string">&quot;query&quot;</span>)&#123;
+            <span class="hljs-built_in">query</span>();
+        &#125;
+    &#125;
+&#125;</code></pre>
+
+
+
 </article>
     
     
