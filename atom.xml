@@ -6,7 +6,7 @@
   <link href="https://www.imalun.com/atom.xml" rel="self"/>
   
   <link href="https://www.imalun.com/"/>
-  <updated>2023-12-30T12:17:36.171Z</updated>
+  <updated>2023-12-31T06:49:26.558Z</updated>
   <id>https://www.imalun.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
+    <title>新年祝福</title>
     <link href="https://www.imalun.com/2023/12/30/test/"/>
     <id>https://www.imalun.com/2023/12/30/test/</id>
     <published>2023-12-30T11:42:50.000Z</published>
-    <updated>2023-12-30T12:17:36.171Z</updated>
+    <updated>2023-12-31T06:49:26.558Z</updated>
     
-    <content type="html"><![CDATA[<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"autoplay":true,"video":{"url":"/video/test.mp4"},"danmaku":{"id":"someid","api":"https://api.prprpr.me/dplayer/","addition":["/some.json"]}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);player.on("loadstart",function(){console.log("loadstart")})})()</script> ]]></content>
+    <content type="html"><![CDATA[<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"autoplay":true,"video":{"url":"/video/祝福.mp4"},"danmaku":{"id":"someid","api":"https://api.prprpr.me/dplayer/","addition":["/some.json"]}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);player.on("loadstart",function(){console.log("loadstart")})})()</script> ]]></content>
     
     
       
